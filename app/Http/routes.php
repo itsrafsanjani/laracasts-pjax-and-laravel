@@ -12,4 +12,6 @@ get('contact', function () {
     return view('contact');
 });
 
-
+get('post', function () {
+    return view('post');
+});
